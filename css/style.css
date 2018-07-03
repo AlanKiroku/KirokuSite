@@ -15,7 +15,7 @@ h6 {
 }
 
 a {
-    color: #7642ff;
+    color: #1D2137;
     text-decoration: none;
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
@@ -25,7 +25,7 @@ a {
 a:hover,
 a:focus,
 a:active {
-    color: #2e00a8;
+    color: #1D2137;
     text-decoration: none
 }
 
@@ -94,13 +94,13 @@ a:active {
 }
 
 .bg-primary {
-    background-color: #7642ff !important
+    background-color: #2D2F97 !important
 }
 
 .bg-gradient {
-    background-image: -webkit-linear-gradient(242deg, #6937EA 0%, #377FEA 65%);
-    background-image: -o-linear-gradient(242deg, #6937EA 0%, #377FEA 65%);
-    background-image: linear-gradient(-152deg, #6937EA 0%, #377FEA 65%)
+    background-image: -webkit-linear-gradient(242deg, #2D2F97 0%, #2D72D8 65%);
+    background-image: -o-linear-gradient(242deg, #2D2F97 0%, #2D72D8 65%);
+    background-image: linear-gradient(-152deg, #6937EA 0%, #2D72D8 65%)
 }
 
 .light-text {
@@ -267,11 +267,11 @@ a:active {
 
 .btn-primary,
 .btn-primary:focus {
-    background-color: #7642ff;
-    background-image: -webkit-gradient(linear, left top, right top, from(#7642FF), to(#4259ff));
-    background-image: -webkit-linear-gradient(left, #7642FF, #4259ff);
-    background-image: -o-linear-gradient(left, #7642FF, #4259ff);
-    background-image: linear-gradient(90deg, #7642FF, #4259ff);
+    background-color: #2D2F97;
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#2D2F97), to(#2D72D8));
+    background-image: -webkit-linear-gradient(left, #2D2F97, #2D72D8);
+    background-image: -o-linear-gradient(left, #2D2F97, #2D72D8);
+    background-image: linear-gradient(90deg, #2D2F97, #2D72D8); */
     border: 0;
     color: #fff
 }
@@ -281,11 +281,11 @@ a:active {
 .btn-primary:focus:hover,
 .btn-primary:focus:active {
     color: #fff;
-    background-color: #6429ff;
-    background-image: -webkit-gradient(linear, left top, right top, from(#4259ff), to(#7642FF));
-    background-image: -webkit-linear-gradient(left, #4259ff, #7642FF);
-    background-image: -o-linear-gradient(left, #4259ff, #7642FF);
-    background-image: linear-gradient(90deg, #4259ff, #7642FF)
+    background-color: #2D72D8;
+    /* background-image: -webkit-gradient(linear, left top, right top, from(#2D72D8), to(#2D2F97));
+    background-image: -webkit-linear-gradient(left, #2D72D8, #2D2F97);
+    background-image: -o-linear-gradient(left, #2D72D8, #2D2F97);
+    background-image: linear-gradient(90deg, #2D72D8, #2D2F97) */
 }
 
 .btn-outline,
@@ -306,21 +306,21 @@ a:active {
 }
 
 .btn-outline-primary {
-    color: #7642ff;
+    color: #2D2F97;
     background-image: none;
     background-color: transparent;
-    border-color: #7642ff
+    border-color: #2D2F97
 }
 
 .btn-outline-primary:hover,
 .btn-outline-primary:active {
     color: #fff;
-    background-color: #7642ff;
-    border-color: #7642ff;
-    background-image: -webkit-gradient(linear, left top, right top, from(#7642FF), to(#4259ff));
-    background-image: -webkit-linear-gradient(left, #7642FF, #4259ff);
-    background-image: -o-linear-gradient(left, #7642FF, #4259ff);
-    background-image: linear-gradient(90deg, #7642FF, #4259ff)
+    background-color: #2D2F97;
+    border-color: #2D2F97;
+    background-image: -webkit-gradient(linear, left top, right top, from(#2D2F97), to(#2D72D8));
+    background-image: -webkit-linear-gradient(left, #2D2F97, #2D72D8);
+    background-image: -o-linear-gradient(left, #2D2F97, #2D72D8);
+    background-image: linear-gradient(90deg, #2D2F97, #2D72D8)
 }
 
 header {
@@ -331,7 +331,7 @@ header {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
-    background-image: -webkit-gradient(linear, left top, right top, from(#7642FF), to(#4259ff))
+    background-image: -webkit-gradient(linear, left top, right top, from(#2D2F97), to(#2D2F97))
 }
 
 .swiper-container {
@@ -456,10 +456,10 @@ header {
 
 .bg-shape {
     position: absolute;
-    background-color: #7642ff;
-    background-image: -webkit-linear-gradient(350deg, #7642FF, #4259ff);
-    background-image: -o-linear-gradient(350deg, #7642FF, #4259ff);
-    background-image: linear-gradient(100deg, #7642FF, #4259ff);
+    background-color: #2D2F97;
+    background-image: -webkit-linear-gradient(350deg, #2D2F97, #2D72D8);
+    background-image: -o-linear-gradient(350deg, #2D2F97, #2D72D8);
+    background-image: linear-gradient(100deg, #2D2F97, #2D72D8);
     top: -350px;
     right: -110px;
     border-radius: 8%;
@@ -489,10 +489,10 @@ header {
 
 .bg-circle {
     position: absolute;
-    background-color: #1D2137;
-    background-image: -webkit-linear-gradient(350deg, #1D2137, #1D2137);
-    background-image: -o-linear-gradient(350deg, #1D2137, #1D2137);
-    background-image: linear-gradient(100deg, #1D2137, #1D2137);
+    background-color: #2D2F97;
+    background-image: -webkit-linear-gradient(350deg, #2D2F97, #2D72D8);
+    background-image: -o-linear-gradient(350deg, #2D2F97, #2D72D8);
+    background-image: linear-gradient(100deg, #2D2F97, #2D72D8);
     top: -400px;
     left: -350px;
     border-radius: 100%;
@@ -519,10 +519,10 @@ header {
 
 .bg-circle-two {
     position: absolute;
-    background-color: #7642ff;
-    background-image: -webkit-linear-gradient(350deg, #7642FF, #4259ff);
-    background-image: -o-linear-gradient(350deg, #7642FF, #4259ff);
-    background-image: linear-gradient(100deg, #7642FF, #4259ff);
+    background-color: #2D2F97;
+    background-image: -webkit-linear-gradient(350deg, #2D2F97, #2D72D8);
+    background-image: -o-linear-gradient(350deg, #2D2F97, #2D72D8);
+    background-image: linear-gradient(100deg, #2D2F97, #2D72D8);
     top: 150px;
     left: 350px;
     border-radius: 100%;
@@ -722,7 +722,7 @@ header {
         bottom: 5px;
         left: 50%;
         right: 50%;
-        border-bottom: 1px solid #7642ff;
+        border-bottom: 1px solid #2D2F97;
         margin-right: auto;
         margin-left: auto;
         -webkit-transition: all .5s ease;
@@ -732,7 +732,7 @@ header {
 }
 
 .navbar-inverse .navbar-nav .nav-link.active {
-    color: #7642ff
+    color: #2D2F97
 }
 
 @media(min-width:992px) {
@@ -743,7 +743,7 @@ header {
         bottom: 5px;
         left: 0;
         right: 0;
-        border-bottom: 1px solid #7642ff;
+        border-bottom: 1px solid #2D2F97;
         margin-right: .95rem;
         margin-left: .95rem
     }
@@ -806,7 +806,7 @@ iframe {
 }
 
 .youtube .play span {
-    color: #7642ff
+    color: #2D2F97
 }
 
 .client-logos.negative-margin {
@@ -916,11 +916,11 @@ iframe {
 
 .media-icon i {
     min-width: 50px;
-    color: #7642ff
+    color: #2D2F97
 }
 
 .color-icon i {
-    color: #7642ff
+    color: #2D2F97
 }
 
 .card {
@@ -1042,7 +1042,7 @@ iframe {
 
 .footer-links a:hover {
     text-decoration: none;
-    color: #7642ff
+    color: #2D2F97
 }
 
 .post_title {
