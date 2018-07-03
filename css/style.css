@@ -26,7 +26,6 @@ a:hover,
 a:focus,
 a:active {
     color: #1D2137;
-    text-decoration: none
 }
 
 .link-muted {
@@ -666,6 +665,11 @@ header {
 
 .nav-link {
     padding: .3em 1em
+}
+
+.nav-link:hover {
+    color: #FC5157 !important;
+    font-weight: normal
 }
 
 .nav-link .pe-7s-angle-down {
