@@ -664,8 +664,10 @@ header {
     transition: all .3s ease
 }
 
-.nav-link {
-    padding: .3em 1em
+.nav-link, .nav-link.active, .nav-link:hover {
+    padding: .3em 1em;
+    border-color: transparent;
+    border: none;
 }
 
 .nav-link .pe-7s-angle-down {
@@ -929,6 +931,18 @@ iframe {
     transition: all .3s ease
 }
 
+.card-no-border, .card-no-border:hover {
+    border: none;
+    margin-top: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+
+.card-header-features {
+    background-color: rgba(0,0,0,0);
+    border-bottom: none;
+}
+
 .card:hover {
     margin-top: -5px;
     -webkit-box-shadow: 0 10px 40px rgba(0, 0, 0, .05);
@@ -964,6 +978,18 @@ iframe {
     border: 0
 }
 
+.thing, .thing:hover {
+    margin-top: 0px;
+    -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+    border: none;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
+
 .pricing {
     text-align: center;
     padding: 20px;
@@ -977,7 +1003,7 @@ iframe {
 }
 
 .pricing .card-title {
-    font-size: 65px;
+    font-size: 25px;
     font-family: product sans, Helvetica, Arial, serif;
     font-weight: 700;
     margin: 10px 0 15px

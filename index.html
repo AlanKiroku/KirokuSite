@@ -125,25 +125,44 @@
 
 <div class="section" id="features">
 <div class="container">
-<div class="card text-center">
-  <div class="card-header">
-    <ul class="nav nav-tabs card-header-tabs">
+<div class="card card-no-border">
+  <div class="card-header card-header-features">
+    <ul class="nav nav-tabs nav-fill card-header-tabs" id="featureNav" role="tablist">
       <li class="nav-item">
-        <a class="nav-link active" href="#">Active</a>
+        <a class="nav-link active" data-toggle="tab" data-target="#techUsed" href="#">Tech Used</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" data-toggle="tab" data-target="#placeholder" href="#">placeholder</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
+	      <a class="nav-link" data-toggle="tab" data-target="#placeholder2" href="#">placeholder2</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" data-target="#placeholder3" href="#">placeholder3</a>
       </li>
     </ul>
   </div>
+  
+<div class="tab-content">
+  <div class="tab-pane active" id="techUsed" role="tabpanel">
+  <div class="card thing" style="width: 20rem;">
   <div class="card-block">
-    <h4 class="card-title">Special title treatment</h4>
+    <h3 class="card-title">Special title treatment</h3>
     <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
     <a href="#" class="btn btn-primary">Go somewhere</a>
   </div>
+  </div>
+  </div>
+  <div class="tab-pane" id="placeholder" role="tabpanel">
+	  <p>placeholder</p>
+  </div>
+  <div class="tab-pane" id="placeholder2" role="tabpanel">
+	  <p>placeholder2</p>
+  </div>
+  <div class="tab-pane" id="placeholder3" role="tabpanel">
+	  <p>placeholder3</p>
+  </div>
+</div>
 </div>
 </div>
 </div>
@@ -155,36 +174,36 @@
 <p>Meet the team</p>
 </div>
 <div class="card-deck">
-  <div class="card">
+  <div class="card pricing">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-block">
       <h4 class="card-title">Hannah Burrows</h4>
-      <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text">Write something</p>
+      <p class="card-text text-left"><small class="text-muted">Joined: May 2017 </small></p>
     </div>
   </div>
-  <div class="card">
+  <div class="card pricing">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-block">
       <h4 class="card-title">Jay Shah</h4>
-      <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text">Write Something</p>
+      <p class="card-text text-left"><small class="text-muted">Joined: May 2017</small></p>
     </div>
   </div>
-  <div class="card">
-    <img class="card-img-top" src="..." alt="Card image cap">
+  <div class="card pricing">
+    <img class="card-img-top" src="images/alan.jpeg" alt="Card image cap">
     <div class="card-block">
       <h4 class="card-title">Alan Williams</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text">Write Something</p>
+      <p class="card-text text-left"><small class="text-muted">Joined: May 2018</small></p>
     </div>
   </div>
-  <div class="card">
+  <div class="card pricing">
     <img class="card-img-top" src="..." alt="Card image cap">
     <div class="card-block">
       <h4 class="card-title">Daniel Watson</h4>
-      <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-      <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      <p class="card-text">Write Something</p>
+      <p class="card-text text-left"><small class="text-muted">Joined: June 2018</small></p>
     </div>
   </div>
 </div>
@@ -222,7 +241,7 @@
 <div class="card pricing">
 <div class="card-body">
 <small class="text-muted">MEDIUM</small>
-<h3>Fun with Docker</h3>
+<h4 class="card-title">Fun with Docker</h4>
 <p class="card-text">
 <blockquote>sdfsdfsdfsdfsa</blockquote>
 </p>
@@ -318,6 +337,5 @@ All rights reserved. Kiroku
 <script src="js/global/bootstrap.bundle.min.js"></script>
 
 <script src="js/script.js"></script>
-
 </body>
 </html>
