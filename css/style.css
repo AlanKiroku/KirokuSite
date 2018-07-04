@@ -11,7 +11,7 @@ h4,
 h5,
 h6 {
     font-family: product sans, Helvetica, Arial, serif;
-    line-height: 1.5
+    line-height: 1
 }
 
 a {
@@ -47,7 +47,7 @@ a:active {
 }
 
 .py-lg {
-    padding-top: 5em !important;
+    /* padding-top: 5em !important; */
     padding-bottom: 5em !important
 }
 
@@ -86,7 +86,8 @@ a:active {
 }
 
 .bg-light {
-    background-color: #f8faff !important
+    background-color: #f9f9f9 !important
+    /* background-color: rgba(45, 114, 216, .1) !important; */
 }
 
 .bg-white {
@@ -159,7 +160,7 @@ a:active {
 }
 
 .section-title {
-    margin: 2em auto
+    /* margin: 2em auto */
 }
 
 .owl-theme .owl-nav {
@@ -605,7 +606,7 @@ header {
 }
 
 .section {
-    position: relative
+    position: relative;
 }
 
 .section.bg-overlay:before {
@@ -665,12 +666,21 @@ header {
     transition: all .3s ease
 }
 
-.nav-link,
-.nav-link.active,
-.nav-link:hover {
+.nav-link {
     padding: .3em 1em;
     border-color: transparent;
     border: none;
+}
+
+.nav-link-features {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.nav-link.active {
+    background-color: #FC5157 !important;
+    border-radius: 30px;
+    color: white !important;
 }
 
 .nav-link:hover {
@@ -938,7 +948,8 @@ iframe {
 .card {
     -webkit-transition: all .3s ease;
     -o-transition: all .3s ease;
-    transition: all .3s ease
+    transition: all .3s ease;
+    box-shadow: 0px 7px 5px #d3d3d3;
 }
 
 .card-no-border,
