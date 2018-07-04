@@ -269,15 +269,16 @@ a:active {
 .btn-primary,
 .btn-primary:focus {
     background-color: #2D72D8;
-    color: #fff
+    color: #fff;
+    font-weight: 600
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus:hover,
 .btn-primary:focus:active {
-    color: #fff;
-    background-color: #2D2F97;
+    color: #2D72D8;
+    background-color: #FBF9FF;
 }
 
 .btn-outline,
@@ -994,8 +995,8 @@ iframe {
 }
 
 .media-icons {
-  padding-bottom: 25px;
-  opacity: 0.5;
+    padding-bottom: 25px;
+    opacity: 0.5;
 }
 
 .thing,
