@@ -668,13 +668,15 @@ header {
 
 .nav-link {
     padding: .3em 1em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     border-color: transparent;
     border: none;
 }
 
 .nav-link-features {
-    margin-left: 2em;
-    margin-right: 2em;
+    margin-left: 1.5em;
+    margin-right: 1.5em;
 }
 
 .nav-link.active {
