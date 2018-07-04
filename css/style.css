@@ -26,7 +26,6 @@ a:hover,
 a:focus,
 a:active {
     color: #1D2137;
-    text-decoration: none
 }
 
 .link-muted {
@@ -80,9 +79,10 @@ a:active {
 }
 
 .display-5 {
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 300;
-    line-height: 1.5
+    line-height: 1.6;
+    letter-spacing: 2px;
 }
 
 .bg-light {
@@ -137,7 +137,8 @@ a:active {
 }
 
 .text-muted {
-    color: #a7a2ce !important
+    color: #2D2F97 !important;
+    opacity: 0.9;
 }
 
 .sans-serif-font {
@@ -664,10 +665,18 @@ header {
     transition: all .3s ease
 }
 
-.nav-link, .nav-link.active, .nav-link:hover {
+.nav-link,
+.nav-link.active,
+.nav-link:hover {
     padding: .3em 1em;
     border-color: transparent;
     border: none;
+}
+
+.nav-link:hover {
+    background-color: #FC5157;
+    border-radius: 30px;
+    color: white !important;
 }
 
 .nav-link .pe-7s-angle-down {
@@ -791,10 +800,10 @@ iframe {
 }
 
 .youtube .play {
-    background: #fff;
     border-radius: 50%;
-    width: 80px;
-    height: 80px;
+    border: white;
+    width: 150px;
+    height: auto;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -808,7 +817,8 @@ iframe {
 }
 
 .youtube .play span {
-    color: #2D2F97
+    color: white;
+    font-weight: bold;
 }
 
 .client-logos.negative-margin {
@@ -931,7 +941,8 @@ iframe {
     transition: all .3s ease
 }
 
-.card-no-border, .card-no-border:hover {
+.card-no-border,
+.card-no-border:hover {
     border: none;
     margin-top: 0px;
     -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
@@ -939,7 +950,7 @@ iframe {
 }
 
 .card-header-features {
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
     border-bottom: none;
 }
 
@@ -978,7 +989,8 @@ iframe {
     border: 0
 }
 
-.thing, .thing:hover {
+.thing,
+.thing:hover {
     margin-top: 0px;
     -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
     box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
@@ -1170,4 +1182,9 @@ a.title:hover img {
     border-top: 1px solid #eceeef;
     margin-top: 3em;
     padding-top: 2em
+}
+
+.small-logo {
+    width: 150px;
+    height: auto;
 }
