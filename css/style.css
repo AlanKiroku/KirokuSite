@@ -1205,3 +1205,7 @@ a.title:hover img {
     margin-right: 5rem !important;
     font-weight: 600;
 }
+
+.company-title-text {
+    opacity: 0.7;
+}
