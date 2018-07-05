@@ -1,7 +1,7 @@
 @charset "UTF-8";
 body {
     position: relative;
-    color: #3e396b
+    color: #2D2F97
 }
 
 .podcast {
@@ -1052,6 +1052,7 @@ iframe {
     font-size: 15px;
     font-family: product sans, Helvetica, Arial, serif;
     font-weight: 400;
+    letter-spacing: 1px;
     color: #8d8bb7;
 }
 
@@ -1286,9 +1287,11 @@ a.title:hover img {
 }
 
 .hover-card-text {
-    color: #2D2F97 !important;
-    font-weight: 600;
-    text-align: center;
+    font-size: 15px;
+    font-family: product sans, Helvetica, Arial, serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #8d8bb7;
 }
 
 .card-image-hover {
