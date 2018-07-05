@@ -801,6 +801,22 @@ iframe {
     cursor: pointer
 }
 
+.play-press {
+    opacity: 0.5;
+    width: 150px;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-box-shadow: 0 9px 68px 0 rgba(62, 57, 107, .2);
+    box-shadow: 0 9px 68px 0 rgba(62, 57, 107, .2);
+    text-align: center;
+    padding: 17px 20px
+}
+
 .youtube .play {
     width: 150px;
     height: auto;
