@@ -18,7 +18,6 @@ h4,
 h5,
 h6 {
     font-family: product sans, Helvetica, Arial, serif;
-    line-height: 1
 }
 
 a {
@@ -1248,6 +1247,11 @@ a.title:hover img {
     height: auto;
 }
 
+.big-logo {
+    width: 300px;
+    height: auto;
+}
+
 .home-text {
     margin-top: 1rem !important;
     margin-bottom: 2rem !important;
@@ -1258,3 +1262,42 @@ a.title:hover img {
 .company-title-text {
     opacity: 0.7;
 }
+<<<<<<< HEAD
+=======
+
+.team-image {
+    transition: .5s ease;
+}
+
+.hover-team {
+    transition: 0.5 ease;
+    opacity: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+
+.card:hover .team-image {
+    opacity: 0;
+}
+
+.card:hover .card-block {
+    opacity: 0;
+}
+
+.card:hover .hover-team {
+    transition: 0.5s ease;
+    opacity: 1;
+}
+
+.hover-card-text {
+    color: #2D2F97 !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-image-hover {
+    width: 50%;
+    height: auto;
+}
+>>>>>>> changes to team card
