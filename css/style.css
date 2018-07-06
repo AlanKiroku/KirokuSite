@@ -1267,8 +1267,8 @@ a.title:hover img {
 
 .team-image {
     transition: .5s ease;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
+    -webkit-filter: grayscale(30%);
+    filter: grayscale(30%);
 }
 
 .hover-team {
